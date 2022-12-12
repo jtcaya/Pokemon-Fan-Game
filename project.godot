@@ -8,6 +8,22 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Resource",
+"class": "Pokemon",
+"language": "GDScript",
+"path": "res://Scripts/Pokemon.gd"
+}, {
+"base": "Resource",
+"class": "PokemonBase",
+"language": "GDScript",
+"path": "res://Scripts/PokemonBase.gd"
+} ]
+_global_script_class_icons={
+"Pokemon": "",
+"PokemonBase": ""
+}
+
 [application]
 
 config/name="Pokemon"

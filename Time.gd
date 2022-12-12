@@ -27,7 +27,7 @@ const SECONDS_IN_A_YEAR: int = SECONDS_IN_A_MONTH * MONTHS_IN_A_YEAR
 ## It has to be at least `60` so that `seconds_elapsed` can be stored as an `int`.
 ##
 ## > 90 minutes (5400 seconds) in game == 1 second in real time.
-const IN_GAME_SECONDS_PER_REAL_TIME_SECONDS: int = 1200 #72
+const IN_GAME_SECONDS_PER_REAL_TIME_SECONDS: int = 72
 
 ## The hour of the day at which the game starts (0-23).
 var game_start_hour: int = 12

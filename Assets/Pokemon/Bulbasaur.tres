@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=4 format=2]
+
+[ext_resource path="res://Scripts/PokemonBase.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Pokemon/Sprites/Back/4.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Pokemon/Sprites/Front/4.png" type="Texture" id=3]
+
+[resource]
+script = ExtResource( 1 )
+pokemon_name = "Charmander"
+pokemon_description = null
+front_sprite = ExtResource( 3 )
+back_sprite = ExtResource( 2 )
+type1 = 2
+type2 = null
+max_hp = 39
+attack = 52
+defence = 43
+sp_attack = 60
+sp_defence = 50
+speed = 65

@@ -11,7 +11,7 @@ export (Color) var color_dusk = Color("#64ff3300")
 ## The amount of in-game seconds of delay.
 export (int) var delay = 0
 
-onready var color_transition_tween = $"/root/SceneManager/TimeOfDay/ColorTransitionTween"
+onready var color_transition_tween = $"/root/SceneManager/ColorTransitionTween"
 
 
 func _ready():
